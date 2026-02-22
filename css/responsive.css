@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+    .menu-btn {
+        display: none;
+    }
+
+    .nav-links {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        gap: 30px;
+        border: none;
+    }
+}
