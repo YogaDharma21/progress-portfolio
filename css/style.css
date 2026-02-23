@@ -92,8 +92,9 @@ nav {
 }
 
 .outline-text {
+    font-family: "Inter", sans-serif;
     color: transparent;
-    -webkit-text-stroke: 1px #444;
+    -webkit-text-stroke: 1px var(--accent);
 }
 
 .hero {
@@ -195,4 +196,27 @@ footer {
 
 .footer-links a:hover {
     color: var(--accent);
+}
+
+.cta {
+    padding: 80px 0;
+    background-color: var(--bg-card);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.cta-content {
+    text-align: center;
+}
+
+.cta-content h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.cta-content p {
+    color: var(--text-gray);
+    font-size: 14px;
+    margin-bottom: 30px;
 }
