@@ -37,4 +37,12 @@
     .footer-links a {
         margin: 0;
     }
+
+    .cta-content h2 {
+        font-size: 30px;
+    }
+
+    .cta-content p {
+        font-size: 20px;
+    }
 }
