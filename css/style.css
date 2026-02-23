@@ -144,16 +144,16 @@ nav {
     letter-spacing: 1px;
     font-weight: bold;
     height: max-content;
-    border: 2px solid var(--border-color);
 }
 
 .btn-outline {
     background-color: transparent;
     color: var(--text-white);
+    border: 1px solid var(--border-color);
 }
 
 .btn-outline:hover {
-    border-color: var(--text-white);
+    border: 1px solid var(--text-white);
     background-color: rgba(255, 255, 255, 0.05);
 }
 
