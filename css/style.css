@@ -220,3 +220,68 @@ footer {
     font-size: 14px;
     margin-bottom: 30px;
 }
+
+.work {
+    padding: 50px 0;
+}
+
+.section-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+}
+
+.project-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+}
+
+.project-image {
+    height: 200px;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-icon {
+    font-size: 80px;
+    line-height: 1;
+}
+
+.project-info {
+    padding: 25px;
+}
+
+.project-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.project-desc {
+    color: var(--text-gray);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.project-links {
+    display: flex;
+    gap: 15px;
+}
+
+.project-links a {
+    color: var(--accent);
+    font-size: 12px;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
