@@ -285,3 +285,31 @@ footer {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+.skills {
+    padding: 50px 0;
+    background-color: var(--bg-card);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.skill-item {
+    border: 1px solid var(--border-color);
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.skill-image {
+    width: 30px;
+}

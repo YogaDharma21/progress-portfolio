@@ -50,4 +50,12 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
+
+    .skills-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .skill-image {
+        width: 40px;
+    }
 }
