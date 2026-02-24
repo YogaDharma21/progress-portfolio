@@ -4,14 +4,14 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Yoga Dharma - Portfolio</title>
-        <link rel="stylesheet" href="./css/style.css" />
         <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/style.css" />
         <link rel="stylesheet" href="./css/responsive.css" />
     </head>
     <body>
         <nav>
             <div class="container nav-container">
-                <div class="logo">YOGA</div>
+                <a href="#home" class="logo">YOGA</a>
                 <button class="menu-btn" id="menuBtn">[MENU]</button>
                 <ul class="nav-links" id="navLinks">
                     <li><a href="#work">Projects</a></li>
@@ -47,9 +47,7 @@
 
         <section class="cta">
             <div class="container cta-content">
-                <h2>
-                    Ready to Start a <span class="outline-text">Project?</span>
-                </h2>
+                <h2>Ready to Start a Project?</h2>
                 <p>Let's collaborate and build something amazing together.</p>
                 <a href="#contact" class="btn btn-primary">Get In Touch</a>
             </div>
@@ -57,10 +55,7 @@
 
         <section class="work" id="work">
             <div class="container">
-                <h2 class="section-title">
-                    My
-                    <span class="outline-text">Projects</span>
-                </h2>
+                <h2 class="section-title">My Projects</h2>
 
                 <div class="projects-grid">
                     <div class="project-card">
@@ -204,6 +199,51 @@
             </div>
         </section>
 
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Work Together</h3>
+                        <div class="contact-details">
+                            <p>Bali, Indonesia</p>
+                            <p>yogadharmaputra2006@gmail.com</p>
+                            <p>+62 857-921-017-95</p>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <input
+                            type="text"
+                            placeholder="Your Name"
+                            class="form-input"
+                        />
+                        <input
+                            type="tel"
+                            placeholder="Phone Number"
+                            class="form-input"
+                        />
+                        <input
+                            type="email"
+                            placeholder="Your Email"
+                            class="form-input"
+                        />
+                        <input
+                            type="text"
+                            placeholder="Subject"
+                            class="form-input"
+                        />
+                        <textarea
+                            placeholder="Your Message"
+                            rows="5"
+                            class="form-input"
+                        ></textarea>
+                        <button type="submit" class="btn btn-primary">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
         <footer>
             <div class="container footer-menu">
                 <p>&copy; 2026 Yoga Dharma. All rights reserved.</p>
@@ -223,6 +263,14 @@
                 </div>
             </div>
         </footer>
+
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <span class="popup-icon" id="popupIcon"></span>
+                <p class="popup-message" id="popupMessage"></p>
+                <button class="popup-close" id="popupClose">OK</button>
+            </div>
+        </div>
         <script src="./js/script.js"></script>
     </body>
 </html>
