@@ -226,6 +226,8 @@ footer {
 }
 
 .section-title {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
     font-size: 28px;
     margin-bottom: 40px;
     text-transform: uppercase;
@@ -312,4 +314,41 @@ footer {
 
 .skill-image {
     width: 30px;
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+.contact-info h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+    color: var(--text-gray);
+    font-size: 14px;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-input {
+    padding: 15px;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    color: var(--text-white);
 }
