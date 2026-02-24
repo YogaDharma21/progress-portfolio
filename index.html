@@ -215,31 +215,26 @@
                             type="text"
                             placeholder="Your Name"
                             class="form-input"
-                            required
                         />
                         <input
                             type="tel"
                             placeholder="Phone Number"
                             class="form-input"
-                            required
                         />
                         <input
                             type="email"
                             placeholder="Your Email"
                             class="form-input"
-                            required
                         />
                         <input
                             type="text"
                             placeholder="Subject"
                             class="form-input"
-                            required
                         />
                         <textarea
                             placeholder="Your Message"
                             rows="5"
                             class="form-input"
-                            required
                         ></textarea>
                         <button type="submit" class="btn btn-primary">
                             Send Message
@@ -268,6 +263,14 @@
                 </div>
             </div>
         </footer>
+
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <span class="popup-icon" id="popupIcon"></span>
+                <p class="popup-message" id="popupMessage"></p>
+                <button class="popup-close" id="popupClose">OK</button>
+            </div>
+        </div>
         <script src="./js/script.js"></script>
     </body>
 </html>
